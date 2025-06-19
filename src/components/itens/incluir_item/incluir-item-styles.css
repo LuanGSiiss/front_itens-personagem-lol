@@ -1,0 +1,112 @@
+.incluir-item-container {
+  width: 100%;
+  max-width: 1120px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.incluir-item-container .content {
+  width: 100%;
+  padding: 48px;
+  background: #f0f0f5;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.incluir-item-container .content section {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.incluir-item-container section.form {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.incluir-item-container section.form h1 {
+  font-size: 32px;
+  margin: 0;
+}
+
+.incluir-item-container .back-list {
+  text-decoration: none;
+}
+
+.incluir-item-container .content form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.incluir-item-container .content form input,
+.incluir-item-container .content form select {
+  width: 100%;
+  height: 60px;
+  padding: 0 24px;
+  font-size: 18px;
+  border: 1px solid #dcdce6;
+  border-radius: 8px;
+  background: #fff;
+  outline: none;
+}
+
+.incluir-item-container .content form select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='gray' height='20' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: calc(100% - 16px);
+  background-position-y: center;
+}
+
+.incluir-item-container .content form .grupo-dinamico {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #fafafa;
+  margin-bottom: 16px;
+}
+
+.incluir-item-container .content form .grupo-dinamico input,
+.incluir-item-container .content form .grupo-dinamico select {
+  margin-top: 8px;
+  width: 100%;
+}
+
+.incluir-item-container .content form button {
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  background: #e02041;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.incluir-item-container .content form button:hover {
+  background: #d0183a;
+}
+
+.incluir-item-container .content form .button {
+  margin-top: 16px;
+}
+
+.incluir-item-container .content h3 {
+  margin-top: 24px;
+  font-size: 20px;
+  color: #333;
+}

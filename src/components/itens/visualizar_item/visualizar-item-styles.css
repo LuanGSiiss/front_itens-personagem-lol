@@ -1,0 +1,73 @@
+.visualizar-item-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 40px;
+  background: #fff8f2;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 165, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.visualizar-item-container h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #a93226;
+  text-align: center;
+}
+
+.item-dados, .item-atributos, .item-efeitos {
+  margin-bottom: 30px;
+}
+
+.item-dados p {
+  font-size: 18px;
+  margin: 8px 0;
+  color: #6e2c00;
+}
+
+.item-dados span {
+  font-weight: bold;
+  color: #922b21;
+}
+
+.item-atributos h3,
+.item-efeitos h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #d35400;
+}
+
+.atributo-item,
+.efeito-item {
+  background: #fff3e0;
+  padding: 12px 20px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #f0b27a;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+}
+
+.atributo-item p,
+.efeito-item p {
+  margin: 4px 0;
+  color: #5e3200;
+  font-size: 16px;
+}
+
+.button-voltar {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 24px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.button-voltar:hover {
+  background-color: #c0392b;
+}
